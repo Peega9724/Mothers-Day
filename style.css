@@ -1,0 +1,53 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to right, #ffe6f0, #fff0f5);
+  font-family: 'Great Vibes', cursive;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  text-align: center;
+  background-color: white;
+  padding: 40px;
+  border-radius: 25px;
+  box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+  max-width: 400px;
+}
+
+h1 {
+  color: hotpink;
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+p {
+  color: #444;
+  font-size: 20px;
+  margin: 10px 0;
+}
+
+.heart {
+  color: deeppink;
+  font-size: 24px;
+}
+
+.cute-btn {
+  background-color: pink;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 30px;
+  color: white;
+  font-size: 18px;
+  margin-top: 20px;
+  cursor: pointer;
+  transition: transform 0.2s, background-color 0.3s;
+}
+
+.cute-btn:hover {
+  background-color: hotpink;
+  transform: scale(1.1);
+}
